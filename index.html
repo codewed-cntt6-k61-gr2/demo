@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Quản Lý Đơn Hàng</title>
+  <style type="text/css">
+    /*for moblie phone:  */
+    [class*="col-"]{
+      width: 100%;
+    }
+    @media only screen and (min-width: 60.0px){
+      /*for tablets:  */
+      .col-s-1 {width: 8.33%;}
+            .col-s-2 {width: 16.66%;}
+            .col-s-3 {width: 25%;}
+            .col-s-4 {width: 33.33%;}
+            .col-s-5 {width: 41.66%;}
+            .col-s-6 {width: 50%;}
+            .col-s-7 {width: 58.33%;}
+            .col-s-8 {width: 66.66%;}
+            .col-s-9 {width: 75%;}
+            .col-s-10 {width: 83.33%;}
+            .col-s-11 {width: 91.66%;}
+            .col-s-12 {width: 100%;}  
+    }
+    @media only screen and (min-width: 768px){
+      /*for desktop:  */
+      .col-1 {width: 8.33%;}
+            .col-2 {width: 16.66%;}
+            .col-3 {width: 25%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 50%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <div class="ul">
+      <ul>
+        <a>
+        <i class="fa fa-bars"></i>
+          </a>
+          <a href="trangchu1.html" >Trang chủ</a>
+          <a href="index.html" >Quản lý Đơn hàng</a>
+          <a href="quanlykhohang.html" >Quản lý kho hàng hóa</a>
+          <a href="https://docs.google.com/spreadsheets/d/1QoEDXUg3M-HYUDjmO6LZrHJkEiwPPD7RzeAB2-v_blg/edit#gid=950580980" target="_blank">Quản lý tài chính</a>
+          <a href="client.html" >Quản lý khách hàng</a>
+          <a class="submit" href="#">nvquanly</a>
+      </ul>
+    </div>
+  </div>
+  <div class="mid-content-right">
+    <div class="info-send-product">
+      <h4>THÔNG TIN HÀNG GỬI</h4>
+      <ul>
+        <li>
+          <a>
+            <p class="total-bill">Tổng vận đơn</p>
+            <img src="images/img1.png">
+            <p class="number-bill">0 đơn hàng</p>
+          </a>
+        </li>
+        <li>
+          <a>
+            <p class="total-bill">Giá trị vận đơn</p>
+            <img src="images/img2.png">
+            <p class="number-bill">0 VND
+              <span>0 đơn hàng</span>
+            </p>
+          </a>
+        </li>
+        <li>
+          <a>
+            <p class="total-bill">Đã đối soát</p>
+            <img src="images/img3.png">
+            <p class="number-bill">0 đơn hàng
+              <span>0 VND</span>
+            </p>
+          </a>
+        </li>
+        <li>
+          <a>
+            <p class="total-bill">Chưa đối soát</p>
+            <img src="images/img4.png">
+            <p class="number-bill">0 đơn hàng
+              <span>Giá trị: 0 VND</span>
+            </p>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="arrow-transfer">
+        <img src="images/img0.png" alt="">
+      </div>
+      <div class="processing-results">
+      <h4>KẾT QUẢ XỬ LÝ VẬN ĐƠN</h4>
+      <ul>
+        <li>
+          <a>
+            <p class="total-bill">Sắp chuyển
+              <span>0%</span>
+            </p>
+            <img src="images/img5.png">
+            <p class="number-bill">0 VND
+              <span>0 đơn hàng</span>
+            </p>
+          </a>
+        </li>
+        <li>
+          <a>
+            <p class="total-bill">Phát thành công
+              <span>0%</span>
+            </p>
+            <img src="images/img6.png">
+            <p class="number-bill">0 VND
+              <span>0 đơn hàng</span>
+            </p>
+          </a>
+        </li>
+        <li>
+          <a>
+            <p class="total-bill">Chưa phát
+              <span>0%</span>
+            </p>
+            <img src="images/img7.png">
+            <p class="number-bill">0 VND
+              <span>0 đơn hàng</span>
+            </p>
+          </a>
+        </li>
+        <li>
+          <a>
+            <p class="total-bill">Hàng hoàn
+              <span>0%</span>
+            </p>
+            <img src="images/img8.png">
+            <p class="number-bill">0 VND
+              <span>0 đơn hàng</span>
+            </p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+
+  <div class="style-scroll">
+    <table>
+      <thead>
+        <tr>
+          <th class="checkbox">
+            <input name="box-check" type="checkbox">
+          </th>
+          <th class="bill">MÃ ĐƠN</th>
+          <th class="bill">NGƯỜI NHẬN</th>
+          <th class="bill">ĐỊA CHỈ GIAO HÀNG</th>
+          <th class="bill">ĐIỆN THOẠI</th>
+          <th class="bill">TỔNG TIỀN</th>
+          <th class="bill">TÌNH TRẠNG</th>
+          <th class="bill">NGÀY GỬI</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <!---->
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>

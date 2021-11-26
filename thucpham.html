@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Thực Phẩm</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		/*for moblie phone:  */
+		[class*="col-"]{
+			width: 100%;
+		}
+		@media only screen and (min-width: 600px){
+			/*for tablets:  */
+			.col-s-1 {width: 8.33%;}
+            .col-s-2 {width: 16.66%;}
+            .col-s-3 {width: 25%;}
+            .col-s-4 {width: 33.33%;}
+            .col-s-5 {width: 41.66%;}
+            .col-s-6 {width: 50%;}
+            .col-s-7 {width: 58.33%;}
+            .col-s-8 {width: 66.66%;}
+            .col-s-9 {width: 75%;}
+            .col-s-10 {width: 83.33%;}
+            .col-s-11 {width: 91.66%;}
+            .col-s-12 {width: 100%;}	
+		}
+		@media only screen and (min-width: 768px){
+			/*for desktop:  */
+			.col-1 {width: 8.33%;}
+            .col-2 {width: 16.66%;}
+            .col-3 {width: 25%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 50%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}
+		}
+		table, th, td{
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		*{
+			text-align: center;
+		}
+		th{
+			background: orange;
+		}
+		h2{
+			padding-top: 30px;
+		}
+
+	</style>
+</head>
+<body>
+	 <h2 >Thực phẩm </h2>
+
+	 <table width="800"  align="center">
+	 	<tr>
+	 		<th height="40" > Mã hàng</th>
+	 		<th> Tên hàng</th>
+	 		<th>Đơn vị tính</th>
+	 		<th>Đơn giá</th>
+	 		<th>Số lượng</th>
+	 	</tr>
+
+	 	<tr>
+	 		<td height="30">40001</td>
+	 		<td>Thịt lợn </td>
+	 		<td>kg</td>
+	 		<td>100.0000</td>
+	 		<td>80</td>
+	 	</tr>
+
+	 	<tr>
+	 		<td height="30">40002</td>
+	 		<td>Cá đông lạnh</td>
+	 		<td>Con</td>
+	 		<td>80.000</td>
+	 		<td>89</td>
+	 	</tr>
+
+	 	<tr>
+	 		<td height="30">40003</td>
+	 		<td>Rau củ quả</td>
+	 		<td> kg</td>
+	 		<td>40.000</td>
+	 		<td>50</td>
+	 	</tr>
+
+	 	<tr>
+	 		<td height="30">40004</td>
+	 		<td>Trứng</td>
+	 		<td>1</td>
+	 		<td>5.000</td>
+	 		<td>100</td>
+	 	</tr>
+
+	 	<tr>
+	 		<td height="30">40005</td>
+	 		<td>THịt Gà</td>
+	 		<td>kg</td>
+	 		<td>130.000</td>
+	 		<td>76</td>
+	 	</tr>
+	 	<tr>
+			<td height="30">40006</td>
+	 		<td>Mực</td>
+	 		<td>kg</td>
+	 		<td>300.000</td>
+	 		<td>200</td>
+	 	</tr>
+
+	 	<tr>
+	 		<td height="30">40007</td>
+	 		<td>Tôm sú </td>
+	 		<td>kg</td>
+	 		<td>600.000</td>
+	 		<td>100</td>
+	 	</tr>
+
+
+	 </table>
+
+	 <h2> Nhà phân phối </h2>
+	 <table width="800" align="center">
+	 	
+	 	<tr>
+	 		<th height="40">Mã nhà phân phối </th>
+	 		<th> Tên nhà nhà phân phối</th>
+	 	</tr>
+
+	 	<tr>
+	 		<td height="30">EXP</td>
+	 		<td> Công ty CP đầu tư EXP Việt Nam</td>
+	 	</tr>
+
+	 	<tr>
+	 		<td height="30">ANAN FOOD</td>
+	 		<td>Công ty Cổ Phần Thực Phẩm KB </td>
+	 	</tr>
+
+	 	<tr>
+	 		<td height="30">Hoàng Đông</td>
+	 		<td> Cong ty TNHH thực phẩm Hoàng Đông</td>
+	 	</tr>
+
+	 	<tr>
+	 		<td height="30">Duy Anh</td>
+	 		<td>Công ty TNHH Xuất Nhập Khẩu Thực Phảm Duy Anh</td>
+	 	</tr>
+
+	 	<tr>
+	 		<td height="30">Thành Lợi </td>
+	 		<td>Công ty TNHH Thực phẩm Thương Mại Thành Lợi </td>
+	 	</tr>
+
+	 	<tr>
+	 		<td height="30">Trung Hiếu </td>
+	 		<td>Công ty TNHH Cung cấp thực phẩm Trung Hiếu</td>
+	 	</tr>
+
+
+
+
+	 </table>
+</body>
+</html>

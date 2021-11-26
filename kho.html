@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Thêm sản phẩm</title>
+	
+	<link rel="stylesheet" type="text/css" href="kho.css">
+	<script src='https://cdn.jsdelivr.net/g/lodash@4(lodash.min.js+lodash.fp.min.js)'></script>
+	<script src="quanlykho.js"></script>
+</head>
+<body onload="renderListClient()">
+	<div  >
+		<div class="ul" align="center"  >
+			<ul >
+				<a>
+				<i class="fa fa-bars"></i>
+			    </a>
+			    <a href="trangchu.html" >Trang chủ</a>
+			    <a href="index.html" >Quản lý Đơn hàng</a>
+			    <a href="quanlykhohang.html" >Quản lý kho hàng hóa</a>
+			    <a href="https://docs.google.com/spreadsheets/d/1QoEDXUg3M-HYUDjmO6LZrHJkEiwPPD7RzeAB2-v_blg/edit#gid=950580980" target="_blank">Quản lý tài chính</a>
+			    <a href="client.html" >Quản lý khách hàng</a>
+			    <a class="submit" href="#">nvquanly</a>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="form-kho">
+		<h2>Thêm sản phẩm</h2>
+		<label>Mã hàng  :</label>
+		<input type="text" id="codehang"/>
+        <span id="codehang-error" class="error"></span>
+		<br/>
+
+		<label>Tên Hàng  </label>
+		<input type="text" id="name"/>
+        <span id="name-error" class="error"></span>
+		<br/>
+
+		<label> Đơn vị tính  </label>
+		<input type="text" id="donvi"/>
+        <span id="donvi-error" class="error"></span>
+		<br/>
+
+		<label>Đơn giá  </label>
+		<input type="text" id="dongia"/>
+        <span id="dongia-error" class="error"></span>
+		<br/>
+
+		<label>Số lượng   </label>
+		<input type="text" id="solg"/>
+        <span id="solg-error" class="error"></span>
+		<br/>
+
+		<label>Mã công ty  </label>
+		<input type="text" id="macc"/>
+        <span id="macc-error" class="error"></span>
+		<br/>
+
+		<label>Tên công ty  </label>
+		<input type="text" id="tencc"/>
+        <span id="tencc-error" class="error"></span>
+		<br/>
+
+		<label>&nbsp;</label>
+		<br/>
+		<button  onclick="save()" >Lưu lại</button> <br>
+		<img src="https://media.ohay.tv/v1/upload/content/2018-12/03/34880-225991381c7f00c4843f3a3e4bc2ed5e-ohaytv.jpg">
+		
+	</div>
+
+
+
+	<div class="list-kho" id="list-kho" > 
+		<table id="grid-kho" width="1300" border="1"  align="center">
+		</table>
+	</div> 
+    
+</body>
+</html>

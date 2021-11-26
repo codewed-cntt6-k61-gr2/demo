@@ -1,0 +1,100 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background:white;
+	color: black;
+}
+div.form-kho{
+	width: 520px;
+	height: 700px;
+	border: 1px solid #ccc;
+	margin: 10px;
+	padding: 10px;
+	background: #00ffff ;
+	position: fixed;
+}
+img{
+
+	width: 70%;
+	padding: 40px;
+}
+
+div.list-kho{
+	/*padding-top: 500px;*/
+	padding-bottom: 30px;
+	float: right;
+	/*padding: 10px;*/
+
+}
+
+h2{
+	text-align: center;
+	color: red;
+}
+div.form-quanlykho h3{
+	padding: 0px;
+	margin-top: 0px;
+}
+div.form-kho label{
+	width: 100px;
+	float: left;
+}
+div.form-kho input[type="text"]{
+	margin-bottom: 10px;
+	width: 200px;
+	padding: 5px;
+	text-align: center;
+	background: yellow;
+}
+div.form-kho input[type="text"]:hover{
+	background: white;
+}
+button{
+	margin-top: 15px;
+	width: 100px;
+
+}
+button:hover{
+	color: red;
+	background: yellow;
+}
+.error{
+    color: red;
+}
+table{	
+	border-collapse: collapse;
+	border-style: solid;
+	border-color: #96D4D4;
+	text-align: center;
+	width: 880px;
+	padding: 0px;
+	margin: 30px;
+
+}
+tr{
+	height: 30px;
+}
+label, input, span{
+	padding: 10px;
+}
+th{ 
+	background:#FF6600 ;
+	
+ }
+div ul{
+    background-color: #808080;
+	margin: 0px;
+	padding: 10px;
+}
+div ul a{
+	text-decoration: none;
+	font-size: 20px;
+	margin: 20px;
+	color: 	#CCFFCC;
+	
+}
+a:hover{
+	background-color: #333333;
+	color: #fff;
+}
+ 
